@@ -11,6 +11,10 @@ import {map} from 'rxjs/operators';
 export class DocLayoutComponent implements OnInit {
   url;
 
+  facilitiesSubMenu = {
+    "View": "",
+    "Map": ""
+  }
 
   constructor(private route: ActivatedRoute,) {
 
